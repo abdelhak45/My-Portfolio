@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+body{
+    background-image: url("./img/vuvrf9kz.bmp");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+::selection{
+    color: red;
+    background-color: rgb(46, 160, 122);
+}
+/* all1 ================================ */
+
+#all1 {
+    background-image: url("./img/yoatg9l1.bmp");
+    background-position: center ;
+    background-size: cover ;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 50px 10px ;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+.logo{
+    color: rgb(46, 160, 122);
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.links a {
+    text-decoration: none;
+    color:rgb(46, 160, 122) ;
+    font-family: 'Times New Roman', Times, serif;
+    
+    margin-left: 10px;
+    font-weight: bold;
+}
+.links a:hover{
+    color:red;
+    border-bottom: 1px solid red;
+    transition: .5s;
+}
+
+.h{
+    font-weight: bold;
+    color: rgb(232, 241, 238);
+}
+.p{
+    color: rgb(232, 241, 238);
+    font-size: x-large;
+    font-weight: 100;
+    word-spacing: 5px;
+    line-height: 50px;
+    max-width: 900px;
+    margin: 0px auto;
+    text-align: center;
+}
+.p::first-letter{
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+/* all2 ================================ */
+
+
+.about{
+    display: flex;
+    justify-content: center;
+}
+
+.about h3 {
+    color: red;
+    border: solid rgb(46, 160, 122) 2px;
+    width: fit-content;
+    margin: 50px 0px;
+    border-radius: 5px 50px;
+    padding: 10px 25px;
+    background: #000;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.self{
+    width: 70%;
+    margin: 4px auto;
+    border-radius: 50%;
+    border: 5px solid red;
+    border-top: none;
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+}
+.self img{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    border: 2px solid rgb(46, 160, 122);
+}
+
+#all2{
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+.content h4{
+    color: rgb(46, 160, 122);
+    font-family: 'Times New Roman', Times, serif;
+    
+    letter-spacing: 1px;
+}
+
+.pp{
+    color: rgb(232, 241, 238);
+    font-size: 17px;
+    font-weight: 100;
+    word-spacing: 5px;
+    line-height: 32px;
+    max-width: 900px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+
+#ma{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.red{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    
+    font-weight: bold;
+}
+
+.red i{
+    color: rgb(46, 160, 122);
+    font-weight: 300;
+
+}
+.a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+#btn{
+        width: 59%;
+        outline: none;
+        border: 1px solid red;
+        border-radius: 20px;
+        font-weight: 600;
+        color: red;
+        background: black;
+}
+#btn:hover{
+    box-shadow: 0px 0px 20px 1px red;
+    transition: .5s;
+}
+
+/* all3 ================================ */
+
+
+.skills{
+    display: flex;
+    justify-content: center;
+}
+
+.skills h3 {
+    color: red;
+    border: solid rgb(46, 160, 122) 2px;
+    width: fit-content;
+    margin: 50px 0px;
+    border-radius: 5px 50px;
+    padding: 10px 40px;
+    background: #000;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+#all3{
+    max-width: 1000px;
+    margin: 0px auto;
+}
+.languages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+.language{
+    text-align: center;
+    color: white;
+    width: 100px;
+    height: fit-content;
+}
+#languagIcon {
+    font-size: 50px;
+}
+/* 
+.languag img{
+    width: 100px;
+    border-radius: 40%;
+} */
+/* 
+.range{
+    background: rgb(211, 200, 200);
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 37px;
+    overflow: hidden;
+}
+.html {
+    margin: -5px;
+    background-color: rgb(46, 160, 122);
+    width: 95%;
+    height: 30px;
+    border-radius: 2px 8px 8px 2px;
+}
+
+.numberHtml {
+    margin: -9px;
+    text-align: end;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.css {
+    margin: -5px;
+    background-color: rgb(46, 160, 122);
+    width: 90%;
+    height: 30px;
+    border-radius: 2px 8px 8px 2px;
+}
+
+.numbercss {
+    margin: -9px;
+    text-align: end;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+.botsrap {
+    margin: -5px;
+    background-color: rgb(46, 160, 122);
+    width: 75%;
+    height: 30px;
+    border-radius: 2px 8px 8px 2px;
+}
+
+.numberbotsrap {
+    margin: -9px;
+    text-align: end;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+.js {
+    margin: -5px;
+    background-color: rgb(46, 160, 122);
+    width: 85%;
+    height: 30px;
+    border-radius: 2px 8px 8px 2px;
+}
+
+.numberjs {
+    margin: -9px;
+    text-align: end;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+.git {
+    margin: -5px;
+    background-color: rgb(46, 160, 122);
+    width: 90%;
+    height: 30px;
+    border-radius: 2px 8px 8px 2px;
+}
+
+.numbergit {
+    margin: -9px;
+    text-align: end;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+.titleLaunguage{
+    font-family: 'Times New Roman', Times, serif;
+    
+    color: white; 
+}  */
+
+
+
+
+
+/* all4 ================================ */
+
+
+#all4{
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+.Progects h3 {
+    color: red;
+    border: solid rgb(46, 160, 122) 2px;
+    width: fit-content;
+    margin: 50px auto;
+    border-radius: 5px 50px;
+    padding: 10px 40px;
+    background: #000;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+.titleProject {
+    margin: 80px;
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.eleme{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px 1px inset rgba(228, 217, 217, 0.363);
+    color: white;
+}
+
+.project img{
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+}
+.project{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+
+
+
+
+
+/* ============================================ foter */
+
+#foter{
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 1000px;
+    margin: 0px auto;
+    border: 1px solid rgba(46, 160, 122, 0.849);
+    border-bottom: none;
+    border-radius:20px 20px 0px 0px;
+    margin-bottom: -20px;
+    margin-top: 50px;
+}
+
+.divOfFoter{
+    width: 400px;
+}
+
+.h4OfFoter {
+    font-family: 'Times New Roman', Times, serif;
+    
+    border-bottom: 2px solid rgb(46, 160, 122);
+    width: fit-content;
+    color: red;
+    font-size: 30px;
+}
+
+
+.paraOfFoter {
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    font-weight: 200;
+}
+
+.cancat{
+    
+    width: 400px;
+}
+
+.concath4{
+    font-family: 'Times New Roman', Times, serif;
+    
+    border-bottom: 2px solid rgb(46, 160, 122);
+    width: fit-content;
+    color: red;
+    font-size: 30px;
+}
+
+
+.ico{
+    font-size: 30px;
+    color: gray;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btnUp{
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+
+#up {
+    color: red;
+    background-color: black;
+    outline: none;
+    border: 2px solid rgb(46, 160, 122);
+    font-size: 34px;
+    padding: 0px 10px;
+    width: 100px;
+    height: 50px;
+    position: fixed;
+    bottom: 10px;
+    border-radius: 40px 40px 5px 5px;
+    display: none;
+    
+
+}
+
+
+#up:hover{
+    text-shadow: 0px 0px 10px rgb(46, 160, 122);
+    transition: .3s;
+    box-shadow: 0px 0px 20px 2px rgb(46, 160, 122) ;
+}
